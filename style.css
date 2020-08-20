@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 50px;
+    background: url(img/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    height: 680px;
+    border: 12px solid #ccc;
+    border-radius: 35px;
+    border: groove 2em #3e485e;
+    border-radius: 2em;
+}
+
+h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-top: 20px;
+    margin-bottom: 1px;
+    color: white;
+}
+
+#selectTrack {
+    background-color: #00a8ff;
+    border-radius: 6px;
+    border: double;
+    width: 280px;
+    height: auto;
+    text-align: center;
+    color: rgba(0, 0, 0,);
+    font-family: 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 20px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+
+
+/* Móviles en horizontal o tablets en vertical */
+
+@media (max-width: 480px) {
+    .container {
+        padding-top: 50px;
+        background: url(img/galaxy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+        height: 680px;
+        border: 12px solid #ccc;
+        border-radius: 35px;
+        border: groove 2em #2f3542;
+        border-radius: 2em;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 0px 1px;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .container {
+        padding-top: 50px;
+        background: url(img/galaxy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 420px;
+        height: 700px;
+        border: 12px solid #ccc;
+        border-radius: 35px;
+        border: groove 2em #2f3542;
+        border-radius: 2em;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        text-shadow: 0px 1px;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+    }
+}
