@@ -15,7 +15,6 @@
     margin-right: auto;
     width: 480px;
     height: 680px;
-    border: 12px solid #ccc;
     border-radius: 35px;
     border: groove 2em #3e485e;
     border-radius: 2em;
@@ -61,7 +60,6 @@ img {
         margin-right: auto;
         width: 420px;
         height: 680px;
-        border: 12px solid #ccc;
         border-radius: 35px;
         border: groove 2em #2f3542;
         border-radius: 2em;
@@ -89,9 +87,8 @@ img {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        width: 420px;
-        height: 700px;
-        border: 12px solid #ccc;
+        width: 375px;
+        height: 680px;
         border-radius: 35px;
         border: groove 2em #2f3542;
         border-radius: 2em;
